@@ -1,52 +1,34 @@
-# Prerequisites
-*.d
+# Default ignored files
+shelf/
+workspace.xml
 
-# Object files
+# Editor-based HTTP Client requests
+httpRequests/
+
+# Datasource local storage ignored files
+dataSources/
+
+.idea/
+
+.DS_Store
+#Clion specific files
+.idea/
+
+#CMake
+cmake-build-debug/
+cmake_helpers
+
+#build folder
+build/
+
+#obj files
 *.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+#clang-format
+.clang-format
 
-# Precompiled Headers
-*.gch
-*.pch
+#clangd configuration files
+.cache/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+#VSCode specific files
+.vscode/
